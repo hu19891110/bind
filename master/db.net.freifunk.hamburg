@@ -120,3 +120,5 @@ cloud			A	193.96.224.238
 schnackr		CNAME   cloud
 list			CNAME	srv04
 lg			CNAME	srv02
+matrix          AAAA    2a03:2267::219:99ff:fedd:49c8
+_matrix._tcp    SRV 10 0 8448   matrix.hamburg.freifunk.net
